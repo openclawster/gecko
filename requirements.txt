@@ -1,11 +1,11 @@
-llama-cpp-python>=0.2.0
-transformers>=4.35.0
-torch>=2.1.0
-tiktoken>=0.5.0
-websockets>=12.0
-aiohttp>=3.9.0
-pydantic>=2.5.0
+# Core dependencies
+# Note: GPU-accelerated inference requires additional platform-specific setup.
+# See docs/getting-started.md for full installation instructions.
 click>=8.1.0
 rich>=13.0.0
+pydantic>=2.5.0
 python-dotenv>=1.0.0
+aiohttp>=3.9.0
+websockets>=12.0
+tiktoken>=0.5.0
 cryptography>=41.0.0

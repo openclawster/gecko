@@ -12,22 +12,10 @@ setup(
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     python_requires=">=3.10",
-    install_requires=[
-        "llama-cpp-python>=0.2.0",
-        "transformers>=4.35.0",
-        "torch>=2.1.0",
-        "tiktoken>=0.5.0",
-        "websockets>=12.0",
-        "aiohttp>=3.9.0",
-        "pydantic>=2.5.0",
-        "click>=8.1.0",
-        "rich>=13.0.0",
-        "python-dotenv>=1.0.0",
-        "cryptography>=41.0.0",
-    ],
+    install_requires=[],
     entry_points={
         "console_scripts": [
-            "gecko=agent.cli:main",
+            "gecko=__main__:main",
         ],
     },
     classifiers=[
